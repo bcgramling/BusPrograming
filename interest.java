@@ -11,10 +11,12 @@ public class interest {
         double DailyRate = (rate / 100) / 365.25;   // daily interst rate
 		double DailyInterest = principal * DailyRate;	//daily intereest accrued
 		
-		double MonthlyInterest = DailyInterest * 30;
 		double TotalInterest = DailyInterest * days;	//total interest accured
 		
-		System.out.printf("You will have  $%,.2f",(principal + TotalInterest));
+		double TotalAccrued = principal + TotalInterest;
+		double MonthlyInterest= TotalAccrued * DailyRate*30;
+		
+		System.out.printf("You will have  $%,.2f",(TotalAccrued));
 		System.out.printf(" in loans after you finish school.");
 		System.out.println();
 		System.out.printf("Total interest at graudation = $%,.2f",(TotalInterest));
@@ -32,7 +34,7 @@ public class interest {
 		}
 		else {
 			System.out.printf("$%,.2f",(payment));
-			System.out.printf(". This is an acceptable monthly payment");
+			System.out.printf(" is an acceptable monthly payment");
 		}
 		
 
