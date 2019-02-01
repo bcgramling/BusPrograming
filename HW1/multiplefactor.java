@@ -1,3 +1,5 @@
+//Homework 1
+
 public class multiplefactor {
     public static void main(String[] args) {
 		int n1 = Integer.parseInt(args[0]);
