@@ -2,6 +2,7 @@ import java.util.Arrays;
 public class Gambler {
    public static void main(String[] args) {
         int trials = Integer.parseInt(args[0]);
+<<<<<<< HEAD
         int FT_success = 0;							//number of trials food truck meets goal
         int SF_success =0;							//number of trials store front meets goal
         int[] SF = new int[trials];
@@ -12,6 +13,18 @@ public class Gambler {
 		double FT_min = 1000000;					//variable used for food truck min
 		double SF_sum = 0;							//variable used later to calcucate store front avg
 		double FT_sum = 0;							//variable used later to calculate food truck avg
+=======
+        int FT_success = 0;
+        int SF_success =0;
+        double[] SF = new double[trials];
+		double[] FT = new double[trials];
+		double SF_max = 0;
+		double FT_max = 0;
+		double SF_min = 1000000;
+		double FT_min =1000000;
+		double SF_sum = 0;
+		double FT_sum = 0;
+>>>>>>> 991c02388e65b31d9630fdfb04d856fca2bdf68c
 		
 		
 		for (int t = 0; t < trials; t++) {
@@ -61,6 +74,7 @@ public class Gambler {
         System.out.println("The Store Front reached the goal " + SF_success + " out of " + trials +" times");
         System.out.println("The Food Truck reached the goal " + FT_success + " out of " + trials +" times");
 		System.out.println();
+<<<<<<< HEAD
 		System.out.println("Store Front:");
 		System.out.printf("Max profit = $%,.0f%n",(SF_max));
 		System.out.printf("Min profit = $%,.0f%n",(SF_min));
@@ -70,6 +84,19 @@ public class Gambler {
 		System.out.printf("Max profit = $%,.0f%n",(FT_max));
 		System.out.printf("Min profit = $%,.0f%n",(FT_min));
 		System.out.printf("Average profit = $%,.0f%n",(FT_avg));
+=======
+		System.out.println("The max Store Front profit was $%,.0f%n",(SF_max));
+		System.out.println();
+		System.out.println("The min Store Front profit was $%,.0f%n",(SF_min));
+		System.out.println();
+		System.out.println("The average profit of the Store Front was $%,.0f%n",(SF_avg));
+		System.out.println();
+		System.out.println("The max Food Truck profit was $%,.0f%n",(FT_max));
+		System.out.println();
+		System.out.println("The min Food Truck profit was $%,.0f%n",(FT_min));
+		System.out.println();
+		System.out.printf("The average profit of the Food Truck was $%,.0f%n",(FT_avg));
+>>>>>>> 991c02388e65b31d9630fdfb04d856fca2bdf68c
 		
     }
 }
