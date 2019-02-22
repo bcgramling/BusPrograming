@@ -1,0 +1,2 @@
+Mean                      = 3.353333333333333
+Sample standard deviation = 1.010066004443934
