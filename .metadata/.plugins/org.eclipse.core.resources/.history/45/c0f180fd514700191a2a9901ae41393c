@@ -1,0 +1,47 @@
+public class HW3 {
+public static void main(String[] args) {
+
+	//java -cp bin;stdlib.jar HW3 < five_by_five.txt > spreadsheet.txt
+	int rows = StdIn.readInt();
+	int cols = StdIn.readInt();
+	double sum =0.0;
+
+	double [][] array1 = new double [rows+2][cols+2];
+	while (!StdIn.isEmpty()) {
+		
+			for (int j=0; j<rows;j++) {
+				for (int i =0; i< cols;i++ ) {
+					array1[j][i]=StdIn.readDouble();
+					sum=sum+array1[j][i];
+					array1[i][cols] = sum;
+					array1[i][cols+1] = sum/rows;
+					}
+				
+				
+				
+				}	
+				
+				
+			}
+			
+
+	
+
+	System.out.println("the total for row 1 is: "+array1[0][5]);
+	System.out.println("the average for row 1 is: "+array1[0][6]);
+}
+		
+	/*
+	//Output the values of the array to command line
+	for (int i=0; i<; i++) {
+		for (int j=0; j<; j++) {
+			StdOut.printf("%.1f\t|",array1[i][j]);
+
+		}
+		System.out.println();
+	}
+	 */
+	
+	
+	
+}
