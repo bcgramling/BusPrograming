@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <section name="Workbench">
 	<list key="org.eclipse.ui.internal.wizards.datatransfer.SmartImportRootWizardPage.knownSources">
+		<item value="H:\BusPrograming\HW3"/>
 		<item value="\\home.iowa.uiowa.edu\bcgramling\BusProgramming\Project 3"/>
 		<item value="\\home.iowa.uiowa.edu\bcgramling\BusProgramming\HW3"/>
 	</list>
