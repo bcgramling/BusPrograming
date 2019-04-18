@@ -1,6 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <section name="Workbench">
 	<list key="org.eclipse.ui.internal.wizards.datatransfer.SmartImportRootWizardPage.knownSources">
+		<item value="\\home.iowa.uiowa.edu\bcgramling\BusPrograming\HW4"/>
+		<item value="\\home.iowa.uiowa.edu\bcgramling\BusPrograming\Lab_12"/>
+		<item value="\\home.iowa.uiowa.edu\bcgramling\BusPrograming\Test2"/>
+		<item value="\\home.iowa.uiowa.edu\bcgramling\BusPrograming\Test 2"/>
+		<item value="H:\BusPrograming\Lab_10"/>
 		<item value="H:\BusPrograming\HW3"/>
 		<item value="\\home.iowa.uiowa.edu\bcgramling\BusProgramming\Project 3"/>
 		<item value="\\home.iowa.uiowa.edu\bcgramling\BusProgramming\HW3"/>
