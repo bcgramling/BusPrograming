@@ -1,2 +1,2 @@
-Standard Diviation: 4.18
-Average: 9.00
+Standard Diviation: 6.02
+Average: 9.80
